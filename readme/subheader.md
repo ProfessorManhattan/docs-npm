@@ -9,6 +9,7 @@
   <span> | </span>
   <a href="{{ chat_url }}">Chat</a>
   <span> | </span>
+  <a href="{{ profile.github }}/npm-{{ slug }}">GitHub Mirror</a>
 </h4>
 <p>
   <a href="{{ repository.group.npm }}/{{ slug }}">

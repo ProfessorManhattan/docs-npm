@@ -1,6 +1,6 @@
 ## Pull Requests
 
-All pull requests should be associated with issues. You can find the [issues board on GitLab]({{ repository.group.dockerfile }}/{{ slug }}/-/issues). The pull requests should be made to [the GitLab repository]({{ repository.group.dockerfile }}/{{ slug }}) instead of the [GitHub repository]({{ profile.github }}/npm-{{ github_npm_package }}). This is because we use GitLab as our primary repository and mirror the changes to GitHub for the community.
+All pull requests should be associated with issues. You can find the [issues board on GitLab]({{ repository.group.dockerfile }}/{{ slug }}/-/issues). The pull requests should be made to [the GitLab repository]({{ repository.group.dockerfile }}/{{ slug }}) instead of the [GitHub repository]({{ profile.github }}/npm-{{ slug }}). This is because we use GitLab as our primary repository and mirror the changes to GitHub for the community.
 
 ### How to Commit Code
 
