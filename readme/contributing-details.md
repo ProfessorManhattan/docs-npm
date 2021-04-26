@@ -1,6 +1,6 @@
 ## Contributing
 
-Contributions, issues, and feature requests are welcome! Feel free to check the [issues page]({{ repository.group.npm }}/{{ SLUG }}/-/issues). If you would like to contribute, please take a look at the [contributing guide]({{ repository.group.dockerfile }}/{{ SLUG }}/-/blob/master/CONTRIBUTING.md).
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page]({{ repository.group.npm }}/{{ slug }}/-/issues). If you would like to contribute, please take a look at the [contributing guide]({{ repository.group.dockerfile }}/{{ slug }}/-/blob/master/CONTRIBUTING.md).
 
 <details>
 <summary>Sponsorship</summary>

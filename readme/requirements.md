@@ -1,4 +1,3 @@
 ## Requirements
 
-* Node.js (version 10 or higher)
-* npm or Yarn
+* **[Node.js >9]({{ repository.project.node }})**

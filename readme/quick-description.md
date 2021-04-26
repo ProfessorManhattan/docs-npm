@@ -1,3 +1,1 @@
-<p>
-  <b>{{ quick_description }}</b></br>
-</p>
+> </br>**{{ quick_description }}**</br></br>
