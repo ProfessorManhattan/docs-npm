@@ -20,7 +20,7 @@
         "galaxy": "https://galaxy.ansible.com/professormanhattan",
         "github": "https://github.com/ProfessorManhattan",
         "linkedin": "https://www.linkedin.com/in/blzalewski",
-        "npmjs": "https://www.npmjs.com/~thisismyfirstday",
+        "npmjs": "https://www.npmjs.com/org/megabytelabs",
         "patreon": "https://www.patreon.com/ProfessorManhattan",
         "pypi": "https://pypi.org/user/ProfessorManhattan",
         "replit": "https://repl.it/@ProfessorMegaby",
@@ -50,6 +50,7 @@
         "project": {
             "androidstudio": "https://gitlab.com/megabyte-labs/ansible-roles/androidstudio",
             "ansiblelint": "https://gitlab.com/megabyte-labs/dockerfile/ci-pipeline/ansible-lint",
+            "buildr": "https://gitlab.com/megabyte-labs/npm/buildr",
             "docker": "",
             "dockerslim": "https://gitlab.com/megabyte-labs/ansible-roles/dockerslim",
             "hadolint": "https://gitlab.com/megabyte-labs/ansible-roles/hadolint",

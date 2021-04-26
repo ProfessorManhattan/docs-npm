@@ -3,6 +3,6 @@
 {{ load:.modules/docs/readme/quick-description.md }}
 {{ template:toc }}
 {{ load:.modules/docs/readme/requirements.md }}
-{{ load:.readme.md }}
+{{ load:.blueprint.md }}
 {{ load:.modules/docs/readme/contributing-details.md }}
 {{ load:.modules/docs/readme/license.md }}

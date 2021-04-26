@@ -1,6 +1,6 @@
 ## ESLint
 
-In the root of this project, you will see a file titled `.eslintrc`. This file controls how ESLint works. Our `.eslintrc` file is shared across all [our NPM packages]({{ repository.group.npm }}). If you make changes to the `.eslintrc` file then they will be overwritten. Instead, if you absolutely need to change the `.eslintrc` file's definitions, then you should open up a pull request against the repository that houses all of the [common NPM package files]({{ repository.group.common }}/npm).
+In the root of this project, you will see a file titled `.eslintrc`. This file controls how [ESLint](https://eslint.org/) works. As mentioned in the [Overview](#overview), our `.eslintrc` file is shared across all of [our NPM packages]({{ repository.group.npm }}). If you make changes to the `.eslintrc` file then they will be overwritten. Instead, if you absolutely need to change the `.eslintrc` file's definitions, then you should open up a pull request against the repository that houses all of the [common NPM package files]({{ repository.group.common }}/npm).
 
 ### Disabling ESLint Features
 
@@ -22,4 +22,6 @@ console.log('bar');
 
 It is important that you include the second `/* eslint-enable */` line so that ESLint does not remain disabled for the rest of the file. Do not do this but, for your information, you can disable ESLint for an entire file by placing `/* eslint-disable */` at the top of the file.
 
-Please see the [official ESLint docs](https://eslint.org/docs/2.13.1/user-guide/configuring#disabling-rules-with-inline-comments) for more details.
+**You should fix the lint error instead using `/* eslint-disable */` whenever possible.**
+
+For more details, see the [official ESLint docs](https://eslint.org/docs/2.13.1/user-guide/configuring#disabling-rules-with-inline-comments).

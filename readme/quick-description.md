@@ -1,1 +1,1 @@
-> </br>**{{ quick_description }}**</br></br>
+> </br>**{{ pkg.description }}**</br></br>

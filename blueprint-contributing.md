@@ -2,5 +2,8 @@
 {{ template:toc }}
 {{ load:.modules/docs/contributing/code-of-conduct.md }}
 {{ load:.modules/docs/contributing/overview.md }}
+{{ load:.modules/docs/contributing/architecture.md }}
+{{ load:.modules/docs/contributing/tools.md }}
 {{ load:.modules/docs/contributing/eslint.md }}
+{{ load:.modules/docs/contributing/testing.md }}
 {{ load:.modules/docs/contributing/pull-requests.md }}

@@ -1,9 +1,9 @@
 <h4>
   <a href="{{ website.homepage }}">Homepage</a>
   <span> | </span>
-  <a href="">NPM Profile</a>
+  <a href="{{ profile.npmjs }}">NPM Profile</a>
   <span> | </span>
-  <a href="">NPM Package</a>
+  <a href="https://www.npmjs.com/package/{{ pkg.name }}">NPM Package</a>
   <span> | </span>
   <a href="{{ repository.group.npm }}/{{ slug }}/-/blob/master/CONTRIBUTING.md">Contributing</a>
   <span> | </span>
