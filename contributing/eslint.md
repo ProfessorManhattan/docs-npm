@@ -22,6 +22,6 @@ console.log('bar');
 
 It is important that you include the second `/* eslint-enable */` line so that ESLint does not remain disabled for the rest of the file. Do not do this but, for your information, you can disable ESLint for an entire file by placing `/* eslint-disable */` at the top of the file.
 
-**You should fix the lint error instead using `/* eslint-disable */` whenever possible.**
+**You should fix the lint error instead of using `/* eslint-disable */` whenever possible.**
 
 For more details, see the [official ESLint docs](https://eslint.org/docs/2.13.1/user-guide/configuring#disabling-rules-with-inline-comments).
