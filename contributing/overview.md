@@ -45,4 +45,3 @@ You should then realize that you can build the project by running `npm run build
 ### Dotfiles
 
 As you may have noticed, this project contains many files in the root directory. Many of these files are dotfiles. These files are intended to help our team of developers create code that is consistent and also compliant with industry best practices. Most of the dotfiles (and dot-folders) are synchronized across all of [our NPM packages]({{ repository.group.npm }}). This means that any changes you make to the dotfiles will eventually be over-written. If you need to make a change to any of the dotfiles, you will have to open a pull request against our [common NPM files repository]({{ repository.group.common }}/npm). Bear in mind that any changes you make to the common NPM files will be propagated to all of our NPM repositories.
-

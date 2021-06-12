@@ -9,6 +9,7 @@ If you are creating a CLI, it is possible to install the module for testing befo
 Take the following as an example:
 
 **package.json**
+
 ```
 {
     "name": "@megabytelabs/myapp",
