@@ -7,8 +7,7 @@
   "company": "Megabyte LLC",
   "copyright": "2020-2021",
   "email": {
-    "help": "help@megabyte.space",
-    "personal": "brian@megabyte.space"
+    "help": "help@megabyte.space"
   },
   "github_prefix": "",
   "license": "MIT",
@@ -27,7 +26,6 @@
     "tinypng": "https://tinypng.com/"
   },
   "organization": "Megabyte Labs",
-  "prettier_config": "@megabytelabs/prettier-config",
   "profile": {
     "galaxy": "professormanhattan",
     "github": "ProfessorManhattan",
