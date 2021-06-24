@@ -14,7 +14,7 @@
     "help": "help@megabyte.space"
   },
   "github_prefix": "",
-  "group": "generic",
+  "group": "none",
   "hbs": {
     "ansible": false,
     "dockerfile": false,
