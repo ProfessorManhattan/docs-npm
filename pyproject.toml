@@ -7,7 +7,7 @@ license = "MIT"
 readme = "README.md"
 homepage = "https://megabyte.space"
 documentation = "https://megabyte.space/docs/documentation/npm"
-keywords = ["common", "docs", "documentation", "node", "nestjs", "megabytelabs", "npm", "package", "partials", "professormanhattan", "shared"]
+keywords = ["common", "docs", "documentation", "megabytelabs", "nestjs", "node", "npm", "package", "partials", "professormanhattan", "shared"]
 include = ["CHANGELOG.md", "LICENSE"]
 
 [tool.poetry.dependencies]
