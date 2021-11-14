@@ -1,18 +1,18 @@
 {
   "private": false,
-  "name": "@mblabs/docs-go",
+  "name": "@mblabs/docs-npm",
   "version": "0.0.1",
-  "description": "Documentation partials used to generate documentation for Go projects",
+  "description": "Documentation partials used to generate documentation for NPM, Node, and NestJS projects",
   "license": "MIT",
   "author": "Brian Zalewski <brian@megabyte.space> (https://megabyte.space)",
   "homepage": "https://megabyte.space",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ProfessorManhattan/docs-go.git"
+    "url": "git+https://github.com/ProfessorManhattan/docs-npm.git"
   },
   "bugs": {
     "email": "help@megabyte.space",
-    "url": "https://gitlab.com/megabyte-labs/documentation/go/-/issues"
+    "url": "https://gitlab.com/megabyte-labs/documentation/npm/-/issues"
   },
   "type": "module",
   "scripts": {
@@ -40,9 +40,9 @@
     "common",
     "docs",
     "documentation",
-    "node",
-    "nestjs",
     "megabytelabs",
+    "nestjs",
+    "node",
     "npm",
     "package",
     "partials",
