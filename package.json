@@ -1,68 +1,5 @@
 {
-  "private": false,
-  "name": "@mblabs/docs-npm",
-  "version": "0.0.1",
-  "description": "Documentation partials used to generate documentation for NPM, Node, and NestJS projects",
-  "license": "MIT",
   "author": "Brian Zalewski <brian@megabyte.space> (https://megabyte.space)",
-  "homepage": "https://megabyte.space",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ProfessorManhattan/docs-npm.git"
-  },
-  "bugs": {
-    "email": "help@megabyte.space",
-    "url": "https://gitlab.com/megabyte-labs/documentation/npm/-/issues"
-  },
-  "type": "module",
-  "scripts": {
-    "help": "task --list",
-    "prepare": "task common:husky",
-    "start": "bash .config/start.sh"
-  },
-  "config": {
-    "commitizen": {
-      "path": "cz-conventional-changelog"
-    }
-  },
-  "dependencies": {
-    "tslib": "^2.3.1"
-  },
-  "optionalDependencies": {
-    "chalk": "^4.1.2",
-    "inquirer": "^8.2.0",
-    "signale": "^1.4.0"
-  },
-  "devDependencies": {
-    "@commitlint/config-conventional": "^13.1.0",
-    "@mblabs/eslint-config": "^1.0.101",
-    "@mblabs/prettier-config": "^14.14.14",
-    "@mblabs/release-config": "^1.0.0",
-    "@typescript-eslint/eslint-plugin": "^5.2.0",
-    "cz-conventional-changelog": "^3.3.0",
-    "handlebars-helpers": "^0.10.0",
-    "semantic-release": "^18.0.0"
-  },
-  "keywords": [
-    "common",
-    "docs",
-    "documentation",
-    "mblabs",
-    "megabytelabs",
-    "nestjs",
-    "node",
-    "npm",
-    "package",
-    "partials",
-    "professormanhattan",
-    "shared"
-  ],
-  "engines": {
-    "node": ">=14.18.0"
-  },
-  "publishConfig": {
-    "access": "public"
-  },
   "blueprint": {
     "description": "Documentation partials used to generate documentation for NPM, Node, and NestJS projects",
     "docs": {
@@ -79,6 +16,32 @@
     "subgroup": "npm",
     "title": "NPM/Node/NestJS Project Documentation Partials"
   },
+  "bugs": {
+    "email": "help@megabyte.space",
+    "url": "https://gitlab.com/megabyte-labs/documentation/npm/-/issues"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  },
+  "dependencies": {
+    "tslib": "^2.3.1"
+  },
+  "description": "Documentation partials used to generate documentation for NPM, Node, and NestJS projects",
+  "devDependencies": {
+    "@commitlint/config-conventional": "^13.1.0",
+    "@mblabs/eslint-config": "^1.0.97",
+    "@mblabs/prettier-config": "^14.14.14",
+    "@mblabs/release-config": "^1.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.2.0",
+    "cz-conventional-changelog": "^3.3.0",
+    "handlebars-helpers": "^0.10.0",
+    "semantic-release": "^18.0.0"
+  },
+  "engines": {
+    "node": ">=14.18.0"
+  },
   "eslintConfig": {
     "extends": "@mblabs/eslint-config"
   },
@@ -92,6 +55,22 @@
       "url": "https://www.patreon.com/ProfessorManhattan"
     }
   ],
+  "homepage": "https://megabyte.space",
+  "keywords": [
+    "common",
+    "docs",
+    "documentation",
+    "mblabs",
+    "megabytelabs",
+    "nestjs",
+    "node",
+    "npm",
+    "package",
+    "partials",
+    "professormanhattan",
+    "shared"
+  ],
+  "license": "MIT",
   "lint-staged": {
     "**/*": [
       "blocklint --wordlist blacklist,slave,whitelist",
@@ -133,12 +112,34 @@
       "task image:compress --"
     ]
   },
+  "name": "@mblabs/docs-npm",
+  "optionalDependencies": {
+    "chalk": "^4.1.2",
+    "inquirer": "^8.2.0",
+    "signale": "^1.4.0",
+    "string-break": "^1.2.0"
+  },
   "prettier": "@mblabs/prettier-config",
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
   "release": {
     "branches": [
       "master",
       "next"
     ],
     "extends": "@mblabs/release-config"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ProfessorManhattan/docs-npm.git"
+  },
+  "scripts": {
+    "help": "task --list",
+    "prepare": "task common:husky",
+    "start": "bash .config/start.sh"
+  },
+  "type": "module",
+  "version": "0.0.1"
 }
