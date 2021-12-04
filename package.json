@@ -49,6 +49,9 @@
   },
   "blueprint": {
     "description": "A repository that stores documentation partials for NPM and Node.js projects",
+    "github_id": "R_kgDOGereQA",
+    "gitlab_group_id": "11096751",
+    "gitlab_project_id": "24741482",
     "group": "documentation",
     "name": "NPM Docs",
     "overview": "This repository is home to a collection of documentation partials that are used to build pages like README.md and CONTRIBUTING.md. They are shared amongst various Node.js and NPM-related projects. This repository is part of a system that helps keep repositories up-to-date and well-documented.",
@@ -61,10 +64,7 @@
     },
     "slug": "docs-npm",
     "subgroup": "npm",
-    "title": "Node.js and NPM Package Documentation Partials",
-    "github_id": "R_kgDOGereQA",
-    "gitlab_project_id": "24741482",
-    "gitlab_group_id": "11096751"
+    "title": "Node.js and NPM Package Documentation Partials"
   },
   "commitlint": {
     "extends": [
