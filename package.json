@@ -1,7 +1,55 @@
 {
+  "private": false,
+  "name": "@installdoc/docs-npm",
+  "version": "0.0.1",
+  "description": "A repository that stores documentation partials for NPM and Node.js projects",
+  "license": "MIT",
   "author": "Brian Zalewski <brian@megabyte.space> (https://megabyte.space)",
+  "homepage": "https://megabyte.space",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ProfessorManhattan/docs-npm.git"
+  },
+  "bugs": {
+    "email": "help@megabyte.space",
+    "url": "https://gitlab.com/megabyte-labs/documentation/npm/-/issues"
+  },
+  "type": "module",
+  "scripts": {
+    "help": "task --list",
+    "prepare": "task common:husky",
+    "repair": "bash <(curl -sS https://install.doctor/repair)",
+    "start": "bash .config/start.sh"
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-emoji-conventional"
+    }
+  },
+  "dependencies": {},
+  "optionalDependencies": {},
+  "devDependencies": {
+    "@washingtondc/development": "^1.0.2",
+    "@washingtondc/prettier": "^1.0.0",
+    "@washingtondc/release": "^0.0.2",
+    "eslint-config-strict-mode": "^1.0.0",
+    "sleekfast": "^0.0.1"
+  },
+  "keywords": [
+    "mblabs",
+    "megabytelabs",
+    "professormanhattan",
+    "washingtondc"
+  ],
+  "engines": {
+    "node": ">=14.18.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
   "blueprint": {
     "description": "A repository that stores documentation partials for NPM and Node.js projects",
+    "group": "documentation",
     "name": "NPM Docs",
     "overview": "This repository is home to a collection of documentation partials that are used to build pages like README.md and CONTRIBUTING.md. They are shared amongst various Node.js and NPM-related projects. This repository is part of a system that helps keep repositories up-to-date and well-documented.",
     "profile": {
@@ -12,11 +60,8 @@
       "gitlab": "https://gitlab.com/megabyte-labs/documentation/npm"
     },
     "slug": "docs-npm",
+    "subgroup": "npm",
     "title": "Node.js and NPM Package Documentation Partials"
-  },
-  "bugs": {
-    "email": "help@megabyte.space",
-    "url": "https://gitlab.com/megabyte-labs/documentation/npm/-/issues"
   },
   "commitlint": {
     "extends": [
@@ -24,25 +69,11 @@
     ],
     "helpUrl": "https://megabyte.space/docs/contributing/commits"
   },
-  "config": {
-    "commitizen": {
-      "path": "node_modules/cz-emoji-conventional"
-    }
-  },
-  "dependencies": {},
-  "description": "A repository that stores documentation partials for NPM and Node.js projects",
-  "devDependencies": {
-    "@washingtondc/development": "^1.0.2",
-    "@washingtondc/prettier": "^1.0.0",
-    "@washingtondc/release": "^0.0.2",
-    "eslint-config-strict-mode": "^1.0.0",
-    "sleekfast": "^0.0.1"
-  },
-  "engines": {
-    "node": ">=14.18.0"
-  },
   "eslintConfig": {
-    "extends": "eslint-config-strict-mode"
+    "extends": "eslint-config-strict-mode",
+    "rules": {
+      "import/no-extraneous-dependencies": "off"
+    }
   },
   "funding": [
     {
@@ -54,14 +85,6 @@
       "url": "https://www.patreon.com/ProfessorManhattan"
     }
   ],
-  "homepage": "https://megabyte.space",
-  "keywords": [
-    "mblabs",
-    "megabytelabs",
-    "professormanhattan",
-    "washingtondc"
-  ],
-  "license": "MIT",
   "lint-staged": {
     "**/*": [
       "blocklint --wordlist blacklist,slave,whitelist",
@@ -102,30 +125,12 @@
       "task image:compress --"
     ]
   },
-  "name": "@installdoc/docs-npm",
-  "optionalDependencies": {},
   "prettier": "@washingtondc/prettier",
-  "private": false,
-  "publishConfig": {
-    "access": "public"
-  },
   "release": {
     "branches": [
       "master",
       "next"
     ],
     "extends": "@washingtondc/release"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ProfessorManhattan/docs-npm.git"
-  },
-  "scripts": {
-    "help": "task --list",
-    "prepare": "task common:husky",
-    "repair": "bash <(curl -sS https://install.doctor/repair)",
-    "start": "bash .config/start.sh"
-  },
-  "type": "module",
-  "version": "0.0.1"
+  }
 }
