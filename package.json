@@ -61,7 +61,10 @@
     },
     "slug": "docs-npm",
     "subgroup": "npm",
-    "title": "Node.js and NPM Package Documentation Partials"
+    "title": "Node.js and NPM Package Documentation Partials",
+    "github_id": "R_kgDOGereQA",
+    "gitlab_project_id": "24741482",
+    "gitlab_group_id": "11096751"
   },
   "commitlint": {
     "extends": [
