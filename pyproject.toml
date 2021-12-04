@@ -1,13 +1,13 @@
 [tool.poetry]
 name = "docs-npm"
 version = "0.0.1"
-description = "Documentation partials used to generate documentation for NPM, Node, and NestJS projects"
+description = "A repository that stores documentation partials for NPM and Node.js projects"
 authors = ["Brian Zalewski <brian@megabyte.space>"]
 license = "MIT"
 readme = "README.md"
 homepage = "https://megabyte.space"
-documentation = "https://megabyte.space/docs/documentation/npm"
-keywords = ["common", "docs", "documentation", "mblabs", "megabytelabs", "nestjs", "node", "npm", "package", "partials", "professormanhattan", "shared", "washingtondc"]
+documentation = "https://megabyte.space/docs/common/npm"
+keywords = ["mblabs", "megabytelabs", "professormanhattan", "washingtondc"]
 include = ["CHANGELOG.md", "LICENSE"]
 classifiers = [
   "Development Status :: 4 - Beta",
